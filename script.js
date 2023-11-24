@@ -54,5 +54,16 @@ const team =
 
     ]
 
-    console.log(team)
+
+    const toPrint = document.getElementById('main');
+
+    for (let i = 0; i < team.length; i++){
+
+        const cardElement = document.createElement('article')
+        cardElement.append(team[i]);
+        console.log(team[i])
+       
+    }
+
     
+
