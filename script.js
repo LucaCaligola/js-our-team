@@ -68,7 +68,7 @@ const team =
         const position = (team[i].position);
         const pic = (team[i].pic);
         
-        cardElement.append(name, position, pic)
+        cardElement.append(`${name} ${position} ${pic}`)
         
      
         
