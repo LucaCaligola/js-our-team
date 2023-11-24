@@ -59,11 +59,21 @@ const team =
 
     for (let i = 0; i < team.length; i++){
 
-        const cardElement = document.createElement('article')
-        cardElement.append(team[i]);
-        console.log(team[i])
-       
+        const cardElement = document.createElement('p')
+
+        toPrint.appendChild(cardElement);
+
+
+        const name = (team[i].name);
+        const position = (team[i].position);
+        const pic = (team[i].pic);
+        
+        cardElement.append(name, position, pic)
+        
+     
+        
     }
 
     
 
+  
