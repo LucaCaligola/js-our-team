@@ -13,19 +13,46 @@
 // Organizzare i singoli membri in card/schede, potete usare come esempio lo screenshot,  
 // ma anche realizzare qualcosa di creativo!!!
 
-const team =
-
+const team = 
     [
 
-        {name: 'Wayne Barnett', position: 'Founder & CEO', pic: "img/wayne-barnett-founder-ceo.jpg"}
-        {name: 'Angela Caroll', position: 'Chief Editor', pic: "img/angela-caroll-chief-editor.jpg"}
-        {name: 'Walter Gordon', position: 'Office Manager', pic: "img/walter-gordon-office-manager.jpg"}
-        {name: 'Angela Lopez', position: 'Social Media Manager', pic: "img/angela-lopez-social-media-manager.jpg"}
-        {name: 'Scott Estrada', position: 'Developer', pic: "img/scott-estrada-developer.jpg"}
-        {name: 'Barbara Ramos', position: 'Graphic Designer', pic: "img/barbara-ramos-graphic-designer.jpg"}
+        {
+            name: 'Wayne Barnett',
+            position: 'Founder & CEO',
+            pic: 'img/wayne-barnett-founder-ceo.jpg'
+        },
 
+        {
+            name: 'Angela Caroll',
+            position: 'Chief Editor',
+            pic: 'img/angela-caroll-chief-editor.jpg'
+        },
 
+        {
+            name: 'Walter Gordon',
+            position: 'Office Manager',
+            pic: 'img/walter-gordon-office-manager.jpg'
+        },
+
+        {
+            name: 'Angela Lopez',
+            position: 'Social Media Manager',
+            pic: 'img/angela-lopez-social-media-manager.jpg'
+        },
+
+        {
+            name: 'Scott Estrada',
+            position: 'Developer',
+            pic: 'img/scott-estrada-developer.jpg'
+        },
+
+        {
+            name: 'Barbara Ramos',
+            position: 'Graphic Designer',
+            pic: 'img/barbara-ramos-graphic-designer.jpg'
+        },
 
     ]
 
+    console.log(team)
     
